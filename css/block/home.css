@@ -1,7 +1,7 @@
 .home {
     text-align: center;
     display: grid;
-    grid-template-rows: auto 50px;
+    grid-template-rows: auto 70px;
     grid-template-areas:
         "apresentacao"
         "saiba-mais"
@@ -18,4 +18,37 @@
 
 .saiba-mais {
     grid-area: saiba-mais;
+    display: inline-block;
+}
+
+.saiba-mais-links {
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    color: #F0F0F0;
+}
+
+.seta-home {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-right: .2em solid #F0F0F0;
+    border-bottom: .2em solid #F0F0F0;
+    transform: rotate(45deg);
+}
+
+.desce-sobe {
+    animation: desceSobe 0.5s ease-in infinite;
+    animation-direction: alternate;
+}
+
+/*** ANIMATION KEYFRAMES ***/
+
+@keyframes desceSobe {
+    0% {
+        transform: translateY(0) rotate(45deg);
+    }
+
+    100% {
+        transform: translateY(60%) rotate(45deg);
+    }
 }
