@@ -1,0 +1,46 @@
+header {
+    width: 100%;
+}
+
+.barra-navegacao {
+    width: max-content;
+    margin: 0 auto;
+}
+
+.barra-navegacao ul li {
+    display: inline-block;
+}
+
+.nav-links {
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    font-size: 0.8em;
+    box-sizing: border-box;
+    padding: 1.2em 0.5em;
+    color: #FE9619;
+    font-weight: bold;
+    position: relative;
+}
+
+.nav-links:before {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    width: 100%;
+    height: 100%;
+    border-bottom: 2px solid #CB0112;
+    transform: scaleX(0);
+    transition: transform 0.3s ease-in-out;
+}
+
+.nav-links:hover:before {
+    transform: scaleX(1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.logo-simplificado {
+    width: 2em;
+    transform: translateY(35%);
+    color: #CB0112;
+}

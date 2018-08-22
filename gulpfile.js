@@ -9,5 +9,5 @@ gulp.task('browser-sync', () => {
         }
     });
 
-    gulp.watch(["./*.html", "./css/*.css "]).on('change', browserSync.reload);
+    gulp.watch(["./*.html", "./css/block/*.css", "./css/page/*.css"]).on('change', browserSync.reload);
 });

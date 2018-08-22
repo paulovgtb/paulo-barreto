@@ -1,0 +1,36 @@
+body {
+    background-color: #000;
+    background-size: cover;
+    display: grid;
+    grid-template-columns:  1em auto 1em;
+    grid-template-rows: 51px calc(100% - 51px) 500px;
+    grid-template-areas: 
+        ". head ."
+        ". home ."
+        ". sobre ."
+}
+
+body::after {
+    content: "";
+    background: url(../../images/HomeBg.jpg);
+    background-size: cover;
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1; 
+}
+
+header {
+    grid-area: head;
+}
+
+.home {
+    grid-area: home;
+}
+
+.sobre-mim {
+    grid-area: sobre;
+}
