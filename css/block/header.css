@@ -7,8 +7,16 @@ header {
     margin: 0 auto;
 }
 
+.barra-navegacao ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 0.5fr 1fr 1fr;
+    grid-template-rows: 70px; 
+}
+
 .barra-navegacao ul li {
     display: inline-block;
+    text-align: center;
+    align-self: center;
 }
 
 .nav-links {
@@ -16,8 +24,7 @@ header {
     text-decoration: none;
     font-size: 0.8em;
     box-sizing: border-box;
-    padding: 1.2em 0.5em;
-    color: #FE9619;
+    color: #FB4F14;
     font-weight: bold;
     position: relative;
 }
@@ -25,8 +32,8 @@ header {
 .nav-links:before {
     content: '';
     position: absolute;
-    top: -2px;
-    left: -2px;
+    top: 0px;
+    left: 0px;
     width: 100%;
     height: 100%;
     border-bottom: 2px solid #CB0112;
@@ -40,7 +47,7 @@ header {
 }
 
 .logo-simplificado {
+    align-self: center;
     width: 2em;
-    transform: translateY(35%);
-    color: #CB0112;
+    transform: translate(15%, 15%);
 }

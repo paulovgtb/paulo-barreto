@@ -1,0 +1,21 @@
+.home {
+    text-align: center;
+    display: grid;
+    grid-template-rows: auto 50px;
+    grid-template-areas:
+        "apresentacao"
+        "saiba-mais"
+}
+
+.apresentacao {
+    grid-area: apresentacao;
+    align-self: center;
+}
+
+.apresentacao h1 {
+    margin-bottom: .5em;
+}
+
+.saiba-mais {
+    grid-area: saiba-mais;
+}
