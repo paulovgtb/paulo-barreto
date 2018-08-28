@@ -1,0 +1,31 @@
+.tela-inicial {
+    display: grid;
+    grid-template-rows: 70px calc(100% - 70px);
+    grid-template-areas:
+        "head"
+        "home";
+    background-color: #000;
+    z-index: 0;
+}
+
+.tela-inicial::after {
+    content: "";
+    background: url(../../images/HomeBg.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    opacity: 0.3;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+header {
+    grid-area: head;
+}
+
+.home {
+    grid-area: home;
+}

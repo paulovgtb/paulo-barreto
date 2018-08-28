@@ -10,33 +10,49 @@
         <link rel="stylesheet" href="css/page/index.css">
         <link rel="stylesheet" href="css/block/header.css">
         <link rel="stylesheet" href="css/block/home.css">
+        <link rel="stylesheet" href="css/block/sobre-mim.css">
+        <link rel="stylesheet" href="css/block/tela-inicial.css">
     </head>
     <body>
-        <header>
-            <nav class="barra-navegacao">
-                <ul>
-                    <li><a href="#" class="nav-links">Home</a></li>
-                    <li><a href="#" class="nav-links">Sobre mim</a></li>
-                    <li><img src="images/LogoSymbol - Navy.svg" alt="Logo simplificado" class="logo-simplificado"></li>
-                    <li><a href="#" class="nav-links">Projetos</a></li>
-                    <li><a href="#" class="nav-links">Contato</a></li>
-                </ul>
-            </nav>
-        </header>
-        <section class="home">
-            <div class="apresentacao">
-                <h1>Oi, eu sou Paulo Barreto</h1>
-                <h3>Um desenvolvedor full-stack morando em Recife, PE.</h3>
-            </div>
-            <a class="saiba-mais-links" href="#">
-                <div class="saiba-mais" id="saiba-mais">    
-                    <p>Saiba mais sobre mim</p>
-                    <div class="seta-home" id="seta-home"></div>
+        <section class="tela-inicial">
+            <header>
+                <nav class="barra-navegacao">
+                    <ul>
+                        <li><a href="#" class="nav-links">Home</a></li>
+                        <li><a href="#" class="nav-links">Sobre mim</a></li>
+                        <li><img src="images/LogoSymbol - Orange.svg" alt="Logo simplificado" class="logo-simplificado"></li>
+                        <li><a href="#" class="nav-links">Projetos</a></li>
+                        <li><a href="#" class="nav-links">Contato</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <div class="home">
+                <div class="apresentacao">
+                    <h1>Oi, eu sou Paulo Barreto</h1>
+                    <h3>Um desenvolvedor full-stack morando em Recife, PE.</h3>
                 </div>
-            </a>
+                <a class="saiba-mais-links">
+                    <div class="saiba-mais" id="saiba-mais">    
+                        <p>Saiba mais sobre mim</p>
+                        <div class="seta-home" id="seta-home"></div>
+                    </div>
+                </a>
+            </div>
         </section>
         <section class="sobre-mim">
-            
+            <!-- <div class="minha-foto"></div> -->
+            <img src="images/paulo-barreto.jpg" alt="Foto de Paulo Barreto" class="minha-foto">
+            <p class="historia-resumida">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+
+            <article class="artigo-habilidade">
+                <h1 class="titulo-sobre-mim">Habilidades</h1>
+                <ul class="tabela-habilidade">
+                    <li class="item-tabela-habilidade item-html">HTML</li>
+                    <li class="item-tabela-habilidade item-css">CSS</li>
+                    <li class="item-tabela-habilidade item-javascript">Javascript</li>
+                    <li class="item-tabela-habilidade item-python">Python</li>
+                </ul>
+            </article>
         </section>
 
         <script src="js/animation.js"></script>

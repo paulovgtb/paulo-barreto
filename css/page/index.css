@@ -1,36 +1,16 @@
 body {
-    background-color: #000;
-    background-size: cover;
     display: grid;
-    grid-template-columns:  1.6em auto 1.6em;
-    grid-template-rows: 70px calc(100% - 70px) 500px;
+    grid-template-columns: auto;
+    grid-template-rows: 100% 100%;
     grid-template-areas: 
-        ". head ."
-        ". home ."
-        ". sobre ."
+        "tela-inicial"
+        "sobre-mim";
 }
 
-body::after {
-    content: "";
-    background: url(../../images/HomeBg.jpg);
-    background-size: cover;
-    opacity: 0.3;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    position: absolute;
-    z-index: -1; 
-}
-
-header {
-    grid-area: head;
-}
-
-.home {
-    grid-area: home;
+.tela-inicial {
+    grid-area: tela-inicial;
 }
 
 .sobre-mim {
-    grid-area: sobre;
+    grid-area: sobre-mim;
 }

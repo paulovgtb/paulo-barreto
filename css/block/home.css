@@ -4,7 +4,8 @@
     grid-template-rows: auto 70px;
     grid-template-areas:
         "apresentacao"
-        "saiba-mais"
+        "saiba-mais";
+    padding: 0 1em;
 }
 
 .apresentacao {

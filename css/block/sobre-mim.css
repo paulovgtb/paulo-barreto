@@ -1,0 +1,77 @@
+.sobre-mim {
+    background-color: #333;
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+    padding: 2em 1em;
+    box-sizing: border-box;
+    text-align: center;
+    display: grid;
+    grid-template-rows: 25% 20% auto;
+    grid-template-areas:
+        "minha-foto"
+        "hist-res"
+        "art-hab";
+}
+
+.minha-foto {
+    margin: 0 auto;
+    width: 50%;
+    height: 100%;
+    border-radius: 50%;
+    box-shadow: #000 0px 0px 5px;
+    box-sizing: border-box;
+    grid-area: minha-foto;
+}
+
+.historia-resumida {
+    grid-area: hist-res;
+    align-self: center;
+}
+
+.artigo-habilidade {
+    grid-area: art-hab;
+}
+
+.titulo-sobre-mim {
+    padding: 2em 0;
+}
+
+.tabela-habilidade {
+    width: fit-content;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 5em 5em;
+    grid-template-rows: 5em 5em;
+    grid-template-areas:
+        "html css"
+        "javascript python";
+    grid-gap: 50px 50px;
+}
+
+.item-tabela-habilidade {
+    box-sizing: border-box;
+    text-indent: -999px;
+}
+
+.item-html {
+    grid-area: html;
+    background: url(../../images/svg/HTML5.svg);
+}
+
+.item-css {
+    grid-area: css;
+    background: url(../../images/svg/CSS3.svg);
+    background-size: 5em 5em;
+}
+
+.item-javascript {
+    grid-area: javascript;
+    background: url(../../images/svg/JavaScript.svg);
+}
+
+.item-python {
+    grid-area: python;
+    background: url(../../images/svg/Python.svg);
+    background-size: 5em 5em;
+}

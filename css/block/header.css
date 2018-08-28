@@ -3,7 +3,7 @@ header {
 }
 
 .barra-navegacao {
-    width: max-content;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -22,7 +22,7 @@ header {
 .nav-links {
     font-family: 'Montserrat', sans-serif;
     text-decoration: none;
-    font-size: 0.8em;
+    font-size: 13px;
     box-sizing: border-box;
     color: #FB4F14;
     font-weight: bold;
@@ -48,6 +48,6 @@ header {
 
 .logo-simplificado {
     align-self: center;
-    width: 2em;
+    width: 40px;
     transform: translate(15%, 15%);
 }
