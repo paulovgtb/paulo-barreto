@@ -1,10 +1,11 @@
 body {
     display: grid;
     grid-template-columns: auto;
-    grid-template-rows: 100% 100%;
+    grid-template-rows: 100% auto auto;
     grid-template-areas: 
         "tela-inicial"
-        "sobre-mim";
+        "sobre-mim"
+        "projetos";
 }
 
 .tela-inicial {
@@ -13,4 +14,15 @@ body {
 
 .sobre-mim {
     grid-area: sobre-mim;
+}
+
+.projetos {
+    grid-area: projetos;
+}
+
+.titulo-secao {
+    margin: 0 auto;
+    align-self: center;
+    font-weight: bold;
+    font-size: 2em;
 }

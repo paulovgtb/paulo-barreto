@@ -7,7 +7,7 @@
     box-sizing: border-box;
     text-align: center;
     display: grid;
-    grid-template-rows: 25% 25% auto;
+    grid-template-rows: 10em 10em 17em;
     grid-template-areas:
         "minha-foto"
         "hist-res"
@@ -35,7 +35,7 @@
     width: 80%;
     margin: 0 auto;
     display: grid;
-    grid-template-rows: 20% auto;
+    grid-template-rows: 4em 13em;
 }
 
 .titulo-sobre-mim {
