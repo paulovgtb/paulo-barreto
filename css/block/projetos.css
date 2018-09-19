@@ -1,6 +1,6 @@
 .projetos {
     background-color: #f0f0f0;
-    color: #FB4F14;
+    color: #002244;
     display: grid;
     grid-template-rows: 5em 18em 18em;
     grid-template-areas: 
@@ -26,12 +26,13 @@
     width: 20em;
     height: 12em;
     box-sizing: border-box;
-    border: 0.1em solid #FB4F14;
+    border: 0.1em solid #002244;
 }
 
 .artigo-projeto-hover {
     width: 19.8em;
     height: 11.8em;
+    color: #FB4F14;
     background-color: rgba(0, 0, 0, 0.5);
     position: absolute;
     top: 2.6em;

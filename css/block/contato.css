@@ -1,0 +1,24 @@
+.contato {
+    background-color: #333;
+    color: #FB4F14;
+    padding: 1em;
+}
+
+.fomulario-contato {
+    padding: 1em;
+}
+
+.fomulario-contato label {
+    display: block;
+}
+
+.fomulario-contato label input {
+    display: block;
+    width: 19em;
+}
+
+.paragrafo-contato {
+    font-size: 1.2em;
+    text-align: center;
+    padding: 1.5em 0;
+}
