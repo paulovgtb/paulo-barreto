@@ -11,6 +11,7 @@ saibaMais.addEventListener('mouseout', () => {
 
 const navItems = document.querySelectorAll('.barra-navegacao .nav-links');
 const saibaMaisLink = document.querySelector('.saiba-mais-links');
+const setaFooter = document.querySelector('.div-seta-footer');
 
 function scrollToIdOnClick() {
     event.preventDefault();
@@ -35,3 +36,4 @@ navItems.forEach(item => {
 });
 
 saibaMaisLink.addEventListener('click', scrollToIdOnClick);
+setaFooter.addEventListener('click', scrollToIdOnClick);

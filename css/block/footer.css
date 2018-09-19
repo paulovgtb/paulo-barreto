@@ -1,0 +1,53 @@
+.footer {
+    background-color: #191920;
+    color: #c9c9c9;
+    padding: 1.5em;
+}
+
+.div-seta-footer {
+    width: 2.5em;
+    height: 2.5em;
+    background-color: #FB4F14;
+    border-radius: 15%;
+    margin: 0 auto;
+    position: relative;
+    top: -25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0.4em;
+    box-sizing: border-box;
+}
+
+.seta-footer {
+    width: 0.5em;
+    height: 0.5em;
+    border-left: 4px solid #191920;
+    border-top: 4px solid #191920;
+    transform: rotate(45deg);
+}
+
+.social-list {
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 1em;
+}
+
+.social-list a {
+    text-decoration: none;
+    color: #FB4F14;
+}
+
+.social-link {
+    font-size: 3em;
+}
+
+.assinatura {
+    font-size: 0.9em;
+    text-align: center;
+    font-weight: bold;
+}
