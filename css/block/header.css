@@ -9,12 +9,11 @@ header {
 
 .barra-navegacao ul {
     display: grid;
-    grid-template-columns: 1fr 1fr 0.5fr 1fr 1fr;
+    grid-template-columns: auto auto auto auto auto;
     grid-template-rows: 70px; 
 }
 
 .barra-navegacao ul li {
-    display: inline-block;
     text-align: center;
     align-self: center;
 }
@@ -22,7 +21,7 @@ header {
 .nav-links {
     font-family: 'Montserrat', sans-serif;
     text-decoration: none;
-    font-size: 13px;
+    font-size: 0.9em;
     box-sizing: border-box;
     color: #FB4F14;
     font-weight: bold;
@@ -36,7 +35,7 @@ header {
     left: 0px;
     width: 100%;
     height: 100%;
-    border-bottom: 2px solid #CB0112;
+    border-bottom: 2px solid #f0f0f0;
     transform: scaleX(0);
     transition: transform 0.3s ease-in-out;
 }
@@ -49,5 +48,4 @@ header {
 .logo-simplificado {
     align-self: center;
     width: 40px;
-    transform: translate(15%, 15%);
 }
