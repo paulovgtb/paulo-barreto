@@ -10,11 +10,14 @@
 
 .fomulario-contato label {
     display: block;
+    line-height: 1.5em;
 }
 
 .fomulario-contato label input {
     display: block;
     width: 19em;
+    height: 1.6em;
+    border-radius: 3px;
 }
 
 .paragrafo-contato {

@@ -10,7 +10,10 @@ header {
 .barra-navegacao ul {
     display: grid;
     grid-template-columns: auto auto auto auto auto;
-    grid-template-rows: 70px; 
+    grid-template-rows: 70px;
+    grid-template-areas:
+        "nav-home nav-sobre-mim nav-logo nav-projetos nav-contato";
+
 }
 
 .barra-navegacao ul li {
@@ -45,7 +48,34 @@ header {
     transition: transform 0.3s ease-in-out;
 }
 
+.nav-home {
+    grid-area: nav-home;
+}
+
+.nav-sobre-mim {
+    grid-area: nav-sobre-mim;
+}
+
+.nav-logo {
+    grid-area: nav-logo;
+}
+
+.nav-projetos {
+    grid-area: nav-projetos;
+}
+
+.nav-contato {
+    grid-area: nav-contato;
+}
+
 .logo-simplificado {
     align-self: center;
     width: 40px;
+    grid-area: logo;
+}
+
+@media only screen and (min-device-width : 40em) {
+    .nav-links {
+        color: #fff;
+    }
 }
