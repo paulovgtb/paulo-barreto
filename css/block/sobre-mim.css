@@ -27,6 +27,9 @@
 }
 
 .historia-resumida {
+    max-width: 32em;
+    margin: 0 auto;
+    padding: 0 0.5em;
     font-size: 1.1em;
     grid-area: hist-res;
     align-self: center;
@@ -36,6 +39,7 @@
     grid-area: art-hab;
     background-color: #444;
     width: 80%;
+    max-width: 23em;
     margin: 0 auto;
     display: grid;
     grid-template-rows: 4em 13em;

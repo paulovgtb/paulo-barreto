@@ -1,23 +1,29 @@
 .contato {
     background-color: #333;
     color: #FB4F14;
+    padding: 1em 3em 3em;
+}
+
+.formulario-contato {
+    width: fit-content;
+    margin: 0 auto;
     padding: 1em;
 }
 
-.fomulario-contato {
-    padding: 1em;
-}
-
-.fomulario-contato label {
+.formulario-contato label {
     display: block;
     line-height: 1.5em;
 }
 
-.fomulario-contato label input {
+.formulario-contato label input {
     display: block;
     width: 19em;
     height: 1.6em;
     border-radius: 3px;
+}
+
+.formulario-contato label textarea {
+    display: block;
 }
 
 .paragrafo-contato {
