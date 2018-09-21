@@ -13,7 +13,6 @@ header {
     grid-template-rows: 70px;
     grid-template-areas:
         "nav-home nav-sobre-mim nav-logo nav-projetos nav-contato";
-
 }
 
 .barra-navegacao ul li {
@@ -74,8 +73,27 @@ header {
     grid-area: logo;
 }
 
+.nav-nome {
+    display: none;
+}
+
 @media only screen and (min-device-width : 40em) {
-    .nav-links {
-        color: #fff;
+    .barra-navegacao ul {
+        grid-template-columns: 15% 35% auto auto auto auto;
+        grid-template-areas:
+            "nav-logo nav-nome nav-home nav-sobre-mim nav-projetos nav-contato";
+    }
+
+    .nav-nome {
+        display: inline;
+    }
+
+    .logo-nome {
+        display: block;
+        align-self: center;
+        color: #FB4F14;
+        font-size: 1em;
+        font-weight: bold;
+        text-align: left;
     }
 }
