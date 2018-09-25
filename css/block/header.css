@@ -78,6 +78,7 @@ header {
 }
 
 @media only screen and (min-device-width : 40em) {
+    
     .barra-navegacao ul {
         grid-template-columns: 15% 35% auto auto auto auto;
         grid-template-areas:
@@ -95,5 +96,16 @@ header {
         font-size: 1em;
         font-weight: bold;
         text-align: left;
+    }
+    .header {
+        max-width: 60%;
+    }
+}
+
+@media only screen and (min-device-width : 60em) {
+
+    .barra-navegacao ul {
+        max-width: 70%;
+        margin: 0 auto;
     }
 }

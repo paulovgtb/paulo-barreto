@@ -24,10 +24,17 @@
 
 .formulario-contato label textarea {
     display: block;
+    width: 19em;
+    height: 8em;
+    border-radius: 3px;
 }
 
 .paragrafo-contato {
     font-size: 1.2em;
     text-align: center;
     padding: 1.5em 0;
+}
+
+@media only screen and (min-device-width : 60em) {
+
 }
