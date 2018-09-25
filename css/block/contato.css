@@ -15,24 +15,29 @@
     line-height: 1.5em;
 }
 
-.formulario-contato label input {
+.formulario-contato label input, .formulario-contato label textarea {
     display: block;
     width: 19em;
-    height: 1.6em;
     border-radius: 3px;
+    padding: 0.3em 0.5em;
+}
+
+.formulario-contato label input {
+    height: 1.5em;
 }
 
 .formulario-contato label textarea {
-    display: block;
-    width: 19em;
     height: 8em;
-    border-radius: 3px;
 }
 
 .paragrafo-contato {
     font-size: 1.2em;
     text-align: center;
     padding: 1.5em 0;
+}
+
+.formulario-contato label input:focus, .formulario-contato label textarea:focus {
+    border: 1px solid #FB4F14;
 }
 
 @media only screen and (min-device-width : 60em) {
