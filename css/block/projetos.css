@@ -1,14 +1,38 @@
 .projetos {
     background-color: #f0f0f0;
     color: #002244;
+}
+
+.grid-projeto {
     display: grid;
-    grid-template-rows: 5em 18em 18em;
+    grid-template-rows: 5em 18em 18em 18em 18em;
     grid-template-areas: 
-        "titulo-projetos";
+        "titulo-projetos"
+        "adventure-quest"
+        "agenda-pessoal"
+        "adventure-quest2"
+        "agenda-pessoal2";
+    padding-bottom: 2.5em;
 }
 
 .titulo-projetos {
     grid-area: titulo-projetos;
+}
+
+.projeto-adventure-quest {
+    grid-area: adventure-quest;
+}
+
+.projeto-adventure-quest2 {
+    grid-area: adventure-quest2;
+}
+
+.projeto-agenda-pessoal {
+    grid-area: agenda-pessoal;
+}
+
+.projeto-agenda-pessoal2 {
+    grid-area: agenda-pessoal2;
 }
 
 .artigo-projeto {
@@ -87,4 +111,17 @@
 
 .item-tecnologia {
     border: 1px solid #FB4F14;
+}
+
+@media only screen and (min-device-width : 60em) {
+    .grid-projeto {
+        max-width: 70%;
+        margin: 0 auto;
+        grid-template-rows: 5em 18em 18em;
+        grid-template-columns: 1fr 1fr; 
+        grid-template-areas: 
+            "titulo-projetos titulo-projetos"
+            "adventure-quest agenda-pessoal"
+            "adventure-quest2 agenda-pessoal2";
+    }
 }
